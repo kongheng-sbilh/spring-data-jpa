@@ -1,6 +1,10 @@
 spring:
   application:
-    name: spring-data-jpa
+  name: spring-data-jpa
+
+  jpa:
+    hibernate:
+      ddl-auto: update
 
 #  datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
